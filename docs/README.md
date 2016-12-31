@@ -35,7 +35,7 @@ I looked at off the shelf arduino solutions for controlling mains power, but end
 
 ![Watts Clever]({{ site.baseurl }}/assets/arduinoPhoto3.jpg)
 
-![Watts Clever]({{ site.baseurl }}/assets/breakboardDesign.jpg)
+![Watts Clever]({{ site.baseurl }}/assets/breadboardDesign.jpg)
 
 ![Watts Clever]({{ site.baseurl }}/assets/schematic.jpg)
 
