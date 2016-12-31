@@ -1,10 +1,14 @@
 This is a bunch of bad python that controls my pool pump via an arduino hacked onto a consumer remote controlled mains plug.
 
-It has three main functions:
+I got sick of my pool crawler choking on the huge eucalyptus leaves that blew off the nearby trees and sunk to the bottom. Running the pump 24/7 would catch the leaves on the surface with the skimmer, but was wasteful. So:
+
+![Overview]({{ site.baseurl }}/assets/umllet overview.jpg)
+
+Pumpcontrol has these main functions:
 
 -  It polls the local weather station to get the current wind speed, and turns on when the wind is high (so that leaves landing in the pool get skimmed out)
 -  It runs a few hours a day on a schedule
--  It turns on when request via a web interface- I have this hooked up to android and tasker so I get voice control
+-  It turns on when request via a web interface- I have this hooked up to android and tasker so I get voice control ("Ok google, run the pool pump for 3 hours")
 -  It sends emails (via gmail) whenever it turns on or off so I can keep track of it
 
 
@@ -18,8 +22,6 @@ To get it to go you need to :
 6. Run set_config.py (once off)
 7. Run run.sh to start the daemon (put in your startup)
 
-
-![Overview]({{ site.baseurl }}/assets/umllet overview.jpg)
 
 
 To get the PC to control my pool pump, I had a couple of problems:
@@ -72,4 +74,11 @@ If you want voice control from Android, you need [Tasker](https://tasker.dinglis
 Warning: this code is not at all secure, especially the web interface.
 
 
+Future potential:
 
+
+- It would be easy to hook up an [anemometer](https://en.wikipedia.org/wiki/Anemometer) to measure local wind speed, or use your existing weather station (looking at your Matt)
+- I thought a lot about using a fixed camera pointing at the pool, and process the image using openCV. It would be fairly easy to tell the crawler apart from leaves, and if you ran the pump periodically you could tell the difference between leaves sitting on the surface vs the bottom. But this is probably overkill on a problem I've already overkilled...
+- It would be nice to have data on how often pump is running etc
+- It would be nice to have a richer web interface
+- The code is terrible (Python isn't my thing) - but it goes :)
