@@ -41,22 +41,35 @@ The breadboard circuit to hook the arduino to the remote is pretty simple- some 
 . Overall it looks something like this:
 
 
-![Watts Clever]({{ site.baseurl }}/assets/breadboardDesign.jpg)
+![Breadboard]({{ site.baseurl }}/assets/breadboardDesign.jpg)
 
 
-![Watts Clever]({{ site.baseurl }}/assets/schematic.jpg)
+![Schematic]({{ site.baseurl }}/assets/schematic.jpg)
 
 
 The "finished product", which plugs into my PC,  looks like this:
 
-![Watts Clever]({{ site.baseurl }}/assets/arduinoPhoto1.jpg)
+![arduino1]({{ site.baseurl }}/assets/arduinoPhoto1.jpg)
 
-![Watts Clever]({{ site.baseurl }}/assets/arduinoPhoto2.jpg)
+![arduino2]({{ site.baseurl }}/assets/arduinoPhoto2.jpg)
 
-![Watts Clever]({{ site.baseurl }}/assets/arduinoPhoto3.jpg)
+![arduino3]({{ site.baseurl }}/assets/arduinoPhoto3.jpg)
+
+
+
+
+This system works best if you have a very good skimmer in your pool. I use the [poolskim](http://www.poolskim.com/) which is amazing.
+
+![Poolskim]({{ site.baseurl }}/assets/poolskim_good_2.jpg)
+
 
 
 The code that runs on the arduino is available in the PoolPumpSerial folder with the github code.
+
+If you want voice control from Android, you need [Tasker](https://tasker.dinglisch.net/) and [Autovoice](https://joaoapps.com/autovoice/). Then import the tasker project in the anroid folder, and modify the IP address of the web server.
+
+
+Warning: this code is not at all secure, especially the web interface.
 
 
 
