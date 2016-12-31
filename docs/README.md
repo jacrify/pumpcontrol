@@ -21,13 +21,32 @@ To get it to go you need to :
 ![Overview]({{ site.baseurl }}/assets/umllet overview.jpg)
 
 
-To get my PC to control my pool pump, I had a couple of problems:
-My pool pump is 20m from my house.
-I don't enjoy electrocution
+To get the PC to control my pool pump, I had a couple of problems:
 
-I looked at off the shelf arduino solutions for controlling mains power, but ended up buying a set of Watts Clever remote control power points.
+My pool pump is 20m from my house.
+
+I didn't want to mess with mains power (I don't enjoy electrocution)
+
+
+I looked at off the shelf arduino solutions for controlling mains power, but ended up buying a set of [Watts Clever Easy Off Sockets and Remote](http://www.aussietradesupplies.com.au/catalogue/energy_saving/watts_clever_easy_off_remote_control_socket_4_pack_remote_was_7495_now_5500).
+
 
 ![Watts Clever]({{ site.baseurl }}/assets/wattsClever.png)
+
+
+I disassembled the remote, and using a breadboard, wired the arduino outputs to "push" the buttons on the remote. I also powered the remote off the arduino power. I only wired up one set of on/off switches but you could use this same technique to control 3 different power sockets.
+
+The breadboard circuit to hook the arduino to the remote is pretty simple- some transistors and a couple of resistors to act as [voltage dividers](https://en.wikipedia.org/wiki/Voltage_divider) to drop the voltage to the right level.The whole design, including parts manifest, is available as a [Fritzing](http://fritzing.org/home/) file for download [here]({{ site.baseurl }}/assets/pumpControl.fzz)
+. Overall it looks something like this:
+
+
+![Watts Clever]({{ site.baseurl }}/assets/breadboardDesign.jpg)
+
+
+![Watts Clever]({{ site.baseurl }}/assets/schematic.jpg)
+
+
+The "finished product", which plugs into my PC,  looks like this:
 
 ![Watts Clever]({{ site.baseurl }}/assets/arduinoPhoto1.jpg)
 
@@ -35,8 +54,8 @@ I looked at off the shelf arduino solutions for controlling mains power, but end
 
 ![Watts Clever]({{ site.baseurl }}/assets/arduinoPhoto3.jpg)
 
-![Watts Clever]({{ site.baseurl }}/assets/breadboardDesign.jpg)
 
-![Watts Clever]({{ site.baseurl }}/assets/schematic.jpg)
+The code that runs on the arduino is available in the PoolPumpSerial folder with the github code.
+
 
 
