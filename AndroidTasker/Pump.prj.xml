@@ -1,0 +1,293 @@
+<TaskerData sr="" dvi="1" tv="4.8u4">
+	<Profile sr="prof38" ve="2">
+		<cdate>1448676839196</cdate>
+		<clp>true</clp>
+		<edate>1482143827781</edate>
+		<id>38</id>
+		<mid0>24</mid0>
+		<nme>Pump On</nme>
+		<State sr="con0" ve="2">
+			<code>1402352892</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Contains>false</Contains>
+					<Contains-type>java.lang.Boolean</Contains-type>
+					<DisableCommand>&lt;null&gt;</DisableCommand>
+					<DisableCommand-type>java.lang.String</DisableCommand-type>
+					<DisableCommandExact>false</DisableCommandExact>
+					<DisableCommandExact-type>java.lang.Boolean</DisableCommandExact-type>
+					<DisableCommandRegex>false</DisableCommandRegex>
+					<DisableCommandRegex-type>java.lang.Boolean</DisableCommandRegex-type>
+					<LastCommandIdInvert>false</LastCommandIdInvert>
+					<LastCommandIdInvert-type>java.lang.Boolean</LastCommandIdInvert-type>
+					<LastCommandIdRegex>false</LastCommandIdRegex>
+					<LastCommandIdRegex-type>java.lang.Boolean</LastCommandIdRegex-type>
+					<NotCancelSearchGoogleNow>false</NotCancelSearchGoogleNow>
+					<NotCancelSearchGoogleNow-type>java.lang.Boolean</NotCancelSearchGoogleNow-type>
+					<NotOnContinuous>false</NotOnContinuous>
+					<NotOnContinuous-type>java.lang.Boolean</NotOnContinuous-type>
+					<NotOnNormal>false</NotOnNormal>
+					<NotOnNormal-type>java.lang.Boolean</NotOnNormal-type>
+					<Precision>&lt;null&gt;</Precision>
+					<Precision-type>java.lang.String</Precision-type>
+					<ProfileName>&lt;null&gt;</ProfileName>
+					<ProfileName-type>java.lang.String</ProfileName-type>
+					<Source>&lt;null&gt;</Source>
+					<Source-type>java.lang.String</Source-type>
+					<Substitutions>&lt;null&gt;</Substitutions>
+					<Substitutions-type>java.lang.String</Substitutions-type>
+					<TriggerWord>&lt;null&gt;</TriggerWord>
+					<TriggerWord-type>java.lang.String</TriggerWord-type>
+					<TriggerWordExact>false</TriggerWordExact>
+					<TriggerWordExact-type>java.lang.Boolean</TriggerWordExact-type>
+					<TriggerWordRegex>false</TriggerWordRegex>
+					<TriggerWordRegex-type>java.lang.Boolean</TriggerWordRegex-type>
+					<VariableNames>&lt;null&gt;</VariableNames>
+					<VariableNames-type>java.lang.String</VariableNames-type>
+					<VariableValues>&lt;null&gt;</VariableValues>
+					<VariableValues-type>java.lang.String</VariableValues-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Event Behaviour: true
+Command: ".*pump.*(?&lt;hours&gt;\d+) hour.* (regex)"
+Last Cmd Id Regex: false
+Last Cmd Id Invert: false
+Not on Normal: false
+Not on Continuous: false
+Contains All: false
+Use Regex Replacements: false
+Do Google Now Search: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<configcommand>.*pump.*(?&lt;hours&gt;\d+) hour.*</configcommand>
+					<configcommand-type>java.lang.String</configcommand-type>
+					<configcommandid>&lt;null&gt;</configcommandid>
+					<configcommandid-type>java.lang.String</configcommandid-type>
+					<configcommandinvert>false</configcommandinvert>
+					<configcommandinvert-type>java.lang.Boolean</configcommandinvert-type>
+					<configexactsub>false</configexactsub>
+					<configexactsub-type>java.lang.Boolean</configexactsub-type>
+					<configinstant>true</configinstant>
+					<configinstant-type>java.lang.Boolean</configinstant-type>
+					<configlastcommand>&lt;null&gt;</configlastcommand>
+					<configlastcommand-type>java.lang.String</configlastcommand-type>
+					<configregexsub>true</configregexsub>
+					<configregexsub-type>java.lang.Boolean</configregexsub-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>configcommand configcommandid configlastcommand Precision DisableCommand TriggerWord ProfileName Substitutions VariableNames VariableValues Source plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>a6ff575e-f3f6-4c01-8853-bbfdfcc85346</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autovoice.intent.IntentReceiveVoice</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autovoice</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autovoice.activity.ActivityConfigReceiveVoice</Str>
+		</State>
+	</Profile>
+	<Profile sr="prof39" ve="2">
+		<cdate>1448676839196</cdate>
+		<clp>true</clp>
+		<edate>1483138708392</edate>
+		<id>39</id>
+		<mid0>25</mid0>
+		<nme>Pump Off</nme>
+		<State sr="con0" ve="2">
+			<code>1402352892</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Contains>false</Contains>
+					<Contains-type>java.lang.Boolean</Contains-type>
+					<DisableCommand>&lt;null&gt;</DisableCommand>
+					<DisableCommand-type>java.lang.String</DisableCommand-type>
+					<DisableCommandExact>false</DisableCommandExact>
+					<DisableCommandExact-type>java.lang.Boolean</DisableCommandExact-type>
+					<DisableCommandRegex>false</DisableCommandRegex>
+					<DisableCommandRegex-type>java.lang.Boolean</DisableCommandRegex-type>
+					<LastCommandIdInvert>false</LastCommandIdInvert>
+					<LastCommandIdInvert-type>java.lang.Boolean</LastCommandIdInvert-type>
+					<LastCommandIdRegex>false</LastCommandIdRegex>
+					<LastCommandIdRegex-type>java.lang.Boolean</LastCommandIdRegex-type>
+					<NotCancelSearchGoogleNow>false</NotCancelSearchGoogleNow>
+					<NotCancelSearchGoogleNow-type>java.lang.Boolean</NotCancelSearchGoogleNow-type>
+					<NotOnContinuous>false</NotOnContinuous>
+					<NotOnContinuous-type>java.lang.Boolean</NotOnContinuous-type>
+					<NotOnNormal>false</NotOnNormal>
+					<NotOnNormal-type>java.lang.Boolean</NotOnNormal-type>
+					<Precision>&lt;null&gt;</Precision>
+					<Precision-type>java.lang.String</Precision-type>
+					<ProfileName>&lt;null&gt;</ProfileName>
+					<ProfileName-type>java.lang.String</ProfileName-type>
+					<Source>&lt;null&gt;</Source>
+					<Source-type>java.lang.String</Source-type>
+					<Substitutions>&lt;null&gt;</Substitutions>
+					<Substitutions-type>java.lang.String</Substitutions-type>
+					<TriggerWord>&lt;null&gt;</TriggerWord>
+					<TriggerWord-type>java.lang.String</TriggerWord-type>
+					<TriggerWordExact>false</TriggerWordExact>
+					<TriggerWordExact-type>java.lang.Boolean</TriggerWordExact-type>
+					<TriggerWordRegex>false</TriggerWordRegex>
+					<TriggerWordRegex-type>java.lang.Boolean</TriggerWordRegex-type>
+					<VariableNames>&lt;null&gt;</VariableNames>
+					<VariableNames-type>java.lang.String</VariableNames-type>
+					<VariableValues>&lt;null&gt;</VariableValues>
+					<VariableValues-type>java.lang.String</VariableValues-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Event Behaviour: true
+Command: ".*off.*pump.*|.*pump.*off.* (regex)"
+Last Cmd Id Regex: false
+Last Cmd Id Invert: false
+Not on Normal: false
+Not on Continuous: false
+Contains All: false
+Use Regex Replacements: false
+Do Google Now Search: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<configcommand>.*off.*pump.*|.*pump.*off.*</configcommand>
+					<configcommand-type>java.lang.String</configcommand-type>
+					<configcommandid>&lt;null&gt;</configcommandid>
+					<configcommandid-type>java.lang.String</configcommandid-type>
+					<configcommandinvert>false</configcommandinvert>
+					<configcommandinvert-type>java.lang.Boolean</configcommandinvert-type>
+					<configexactsub>false</configexactsub>
+					<configexactsub-type>java.lang.Boolean</configexactsub-type>
+					<configinstant>true</configinstant>
+					<configinstant-type>java.lang.Boolean</configinstant-type>
+					<configlastcommand>&lt;null&gt;</configlastcommand>
+					<configlastcommand-type>java.lang.String</configlastcommand-type>
+					<configregexsub>true</configregexsub>
+					<configregexsub-type>java.lang.Boolean</configregexsub-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>configcommand configcommandid configlastcommand Precision DisableCommand TriggerWord ProfileName Substitutions VariableNames VariableValues Source plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>a6ff575e-f3f6-4c01-8853-bbfdfcc85346</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autovoice.intent.IntentReceiveVoice</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autovoice</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autovoice.activity.ActivityConfigReceiveVoice</Str>
+		</State>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1483138666454</cdate>
+		<name>Pump</name>
+		<pids>39,38</pids>
+		<tids>32,24,40,25</tids>
+	</Project>
+	<Task sr="task24">
+		<cdate>1448675633336</cdate>
+		<edate>1483138671981</edate>
+		<id>24</id>
+		<nme>pump On</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PUMPHOURS</Str>
+			<Str sr="arg1" ve="3">%regexgroups(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">Running pump for %hours hours</Str>
+			<Str sr="arg1" ve="3">com.google.android.tts:eng-gbr</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Running pump for %hours hours</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Pump Hours</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%hours</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task25">
+		<cdate>1448675633336</cdate>
+		<edate>1482144185700</edate>
+		<id>25</id>
+		<nme>pump Off</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">Turning pool pump off</Str>
+			<Str sr="arg1" ve="3">com.google.android.tts:eng-gbr</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Pump off</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Pump Hours</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">0</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task32">
+		<cdate>1449660259388</cdate>
+		<edate>1483138735316</edate>
+		<id>32</id>
+		<nme>Pump Hours</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>118</code>
+			<Str sr="arg0" ve="3">192.168.0.103:8888</Str>
+			<Str sr="arg1" ve="3">manual</Str>
+			<Str sr="arg2" ve="3">hours=%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task40">
+		<cdate>1450137867150</cdate>
+		<edate>1482143860361</edate>
+		<id>40</id>
+		<nme>Pump 2</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Pump Hours</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">48</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_av_repeat</nme>
+		</Img>
+	</Task>
+</TaskerData>
