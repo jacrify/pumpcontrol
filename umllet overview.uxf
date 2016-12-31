@@ -9,7 +9,7 @@
       <w>160</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>CheckForTrigger.py</panel_attributes>
+    <panel_attributes>pump_control.py</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -358,7 +358,7 @@ update manual config</panel_attributes>
     <id>UMLActor</id>
     <coordinates>
       <x>980</x>
-      <y>30</y>
+      <y>10</y>
       <w>60</w>
       <h>110</h>
     </coordinates>
@@ -369,14 +369,13 @@ update manual config</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1000</x>
-      <y>90</y>
+      <y>70</y>
       <w>140</w>
-      <h>90</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-
 set initial config</panel_attributes>
-    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -533,12 +532,12 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1100</x>
-      <y>80</y>
+      <x>1090</x>
+      <y>0</y>
       <w>150</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Because I can OK?
+    <panel_attributes>Because I can, OK?
 bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
@@ -566,5 +565,28 @@ bg=yellow</panel_attributes>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>60.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>840</x>
+      <y>630</y>
+      <w>300</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>See PoolPumpSerial/PoolPumpSerial.ino
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>640</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
