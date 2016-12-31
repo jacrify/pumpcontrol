@@ -2,3 +2,7 @@
 *.swp
 
 .DS_Store
+
+set_config.py
+
+copypy.sh
