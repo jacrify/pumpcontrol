@@ -11,7 +11,7 @@ To get it to go you need to :
 
 1. Build the arduino interface
 2. Copy to a linux box with python (I run it on a Kodi box)
-3. Find a weather feed close to you. I'm using the Aussie BOM feeds (json) from here: http://www.bom.gov.au/catalogue/data-feeds.shtml#obs-ind , but if you're not in aus you'll need to write some parsing code.
+3. Find a weather feed close to you. I'm using the Aussie BOM feeds (json) from [here](http://www.bom.gov.au/catalogue/data-feeds.shtml#obs-ind) , but if you're not in aus you'll need to write some parsing code.
 4. Set up a one time gmail password for notificationsm, or disable notifcations in the code
 5. Edit set_config.py to reflect the above and other settings.
 6. Run set_config.py (once off)
